@@ -50,7 +50,7 @@
     font-size: 20px;
     line-height: 27px;
     padding: 0 1rem;
-    border: 2px solid var(--border-footer);
+    border: 2px solid var(--color-footer);
     outline: none;
     color: #fff;
 }
@@ -59,7 +59,6 @@
     flex: 0.6;
     width: 100%;
     min-height: 50px;
-
     background: #FF4820;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -111,7 +110,7 @@
     height: 100%;
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (max-width: 1050px) {
     .gpt3__header {
         flex-direction: column;
     }
@@ -133,7 +132,6 @@
     .gpt3__header-content__people {
         flex-direction: column;
     }
-    
     .gpt3__header-content__people p{
         margin: 0;
     }
